@@ -1,0 +1,28 @@
+body{
+  font-family: 'Herculanum', 'Philosopher', sans-serif;
+  text-align: center;
+  background: url(../img/background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.title-image{
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td{
+  width: 300px;
+}
+
+@font-face {
+    font-family: 'Herculanum';
+    src: url('../Herculanum-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
