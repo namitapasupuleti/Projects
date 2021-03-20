@@ -1,0 +1,117 @@
+body{
+  background-color: #17C5FA;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  font-size: 5em;
+}
+
+h2, ol{
+  text-align: left;
+}
+
+h4{
+  font-size: 1.25em;
+}
+
+h5{
+  font-size: 2.5em;
+}
+
+.container{ /*A box that will contain the entire website for centering purposes*/
+	width:100%; /*The container will try to fill the entire browser window width*/
+	max-width:960px; /*the maximum width the container will grow to*/
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+}
+
+.button {
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Bangers', cursive;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 3px 4px 5px #555555;
+}
+
+.start, .check{
+  background-color: #01CA2F; /* Green */
+}
+
+.start:hover, .check:hover {
+  background-color: #01862F;
+}
+
+.skip{
+  background-color: #FF0F00; /* Green */
+}
+
+.skip:hover {
+  background-color: #C60F00;
+}
+
+.info, .hint{
+  background-color: #949494; /* Green */
+}
+
+.info:hover, .hint:hover {
+  background-color: #808080;
+}
+
+.back, .reveal, .next{
+  background-color: #ffd500; /* Green */
+}
+
+.back:hover, .reveal:hover, .next:hover {
+  background-color: #e6c000;
+}
+
+.fullwidth{
+  border-radius: 25px;
+  margin:2%;
+	width:96%;
+	padding:2%;
+	box-sizing:border-box;
+}
+
+section{
+  box-shadow: 3px 4px 3px #555555;
+}
+
+#riddle1{
+  background-color: #EB2F4F; /*red: #EB3F57; light red: #EB5C74; lighter red: #EB888E; */
+}
+
+#riddle2{
+  background-color: #EB5C74; /*red: #EB3F57; light red: #EB5C74; lighter red: #EB888E; */
+}
+
+#riddle3{
+  background-color: #EB888E; /*red: #EB3F57; light red: #EB5C74; lighter red: #EB888E; */
+}
+
+input[type=text]{
+  /* box-shadow: 3px 4px 3px #555555; */
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* font-family: 'Bangers', cursive;
+font-family: 'Varela Round', sans-serif; */

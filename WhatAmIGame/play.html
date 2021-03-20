@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>What Am I? - Play</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1 >WHAT AM I?</h1>
+
+      <article>
+        <button class="button info" onclick="info()">?</button>
+        <button class="button back" onclick="window.location.href='./start.html';">Back to Start</button>
+
+        <br>
+
+        <div id="hints">
+          <section id="riddle1" class="fullwidth">
+          </section>
+        </div>
+
+        <p>Please input your answer in all lowercase and as singular. <br> (ex. Type "insect", NOT "an insect" or "the insect")</p>
+        <h3>The/an/a...</h3>
+
+        <input type="text" id="answer" name="answer" placeholder="Answer...">
+
+        <h3 id="answerCheck">
+
+        </h3>
+
+      </article>
+
+      <button class="button check" onclick="check()">Check Answer</button><br><br>
+
+      <button class="button hint" onclick="hint()">Next Hint</button>
+      <button class="button skip" onclick="skip()">Skip Riddle</button>
+
+      <script src="./js/game.js" type="text/javascript"></script>
+
+    </div>
+  </body>
+</html>
